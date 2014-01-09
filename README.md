@@ -16,6 +16,7 @@ Iteration  1 :
 	Create a JDO with attribute counter and Name, and provide a rest service to insert/update the counter with the name of the counter. 
 
 CounterJDO structure :
+--------------------
 			
 Entity Name
 Data Type
@@ -29,7 +30,7 @@ BigInteger
 
 
 Service spec to Create new Counter :
-
+-----------------------------------
 URL structure 	: http://<appid>.appspot.com/sharedcounter/createCounterEntry
 
 Method 		: POST
@@ -49,6 +50,7 @@ count		: <count>
 
 
 Service Spec to Update/Increment a Counter
+-------------------------------------------
 
 URL Structure		: http://<appid>.appspot.com/sharedcounter/updateCounterEntry
  
@@ -68,7 +70,8 @@ count		: <count>
 
 
 
-Service Spec to Delete/Decrement a Counter
+Service Spec to Delete/Decrement a Counter:
+-----------------------------------------
 
 URL Structure		: http://<appid>.appspot.com/sharedcounter/deleteCounterEntry
  
@@ -89,7 +92,8 @@ count		: <count>
 
 
 
-Service Spec to Get the Count
+Service Spec to Get the Count:
+-----------------------------
 
 URL Structure		: http://<appid>.appspot.com/sharedcounter/getCount
  
