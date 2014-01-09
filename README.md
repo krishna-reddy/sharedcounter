@@ -10,6 +10,10 @@ As we know in GAE-Datastore, on single query we can retrieve max 1000 records on
 -----To overcome this shortfall, we want to create counter app as a service. The objective is update the object count on every transaction using this service. 
 
 Development Needs :
+-----------------
+1)eclipse
+2)GAE plug in for eclipse
+3)spring 3.x
 
 Iteration  1 :
 
@@ -112,4 +116,5 @@ Response		:
 counterName : <counter_Name> ,
 count		: <count>
 }
+
 
